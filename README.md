@@ -15,7 +15,7 @@ Function Description
 Complete the function numberOfPairs. The function must return an integer, the total number of distinct pairs
 of elements in the array that sum to the target value.
 
-numberOfPairs has the following parameter(s) :
+    numberOfPairs has the following parameter(s) :
 
     a[a[0], ...a[n - 1]] : an array of integers to select pairs from
 
@@ -49,18 +49,18 @@ numberOfPairs has the following parameter(s) :
     a = [1, 3, 46, 1, 3, 9], k = 47
 
     There are 4 pairs of elements where a[i] + a[j] = k:
-(a[0] = 1, a[2] = 46)
-(a[2] = 46, a[0] = 1)
-(a[2] = 46, a[3] = 1)
-(a[3] = 1, a[2] = 46)
+    (a[0] = 1, a[2] = 46)
+    (a[2] = 46, a[0] = 1)
+    (a[2] = 46, a[3] = 1)
+    (a[3] = 1, a[2] = 46)
 
-In the list above, all four pairs contain the same values.
-We only have 1 distinct pair, (1, 46).
+    In the list above, all four pairs contain the same values.
+    We only have 1 distinct pair, (1, 46).
 
-You will be prompted for input if not passed in on stdin.
+    You will be prompted for input if not passed in on stdin.
 
-'''bash
+```bash
 echo -e "6\n1\n3\n46\n1\n3\n9\n47\n" | NumUniquePairs.exe
-'''
+```
 
 
